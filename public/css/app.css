@@ -1,0 +1,88 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:300,400,600);@import url(https://fonts.googleapis.com/icon?family=Material+Icons);#main.container {
+  margin-top: 5em;
+}
+
+.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 20px;
+  /* Preferred icon size */
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+  color: gray;
+  float: left;
+  /* Support for all WebKit browsers. */
+  -webkit-font-smoothing: antialiased;
+  /* Support for Safari and Chrome. */
+  text-rendering: optimizeLegibility;
+  /* Support for Firefox. */
+  -moz-osx-font-smoothing: grayscale;
+  /* Support for IE. */
+  -webkit-font-feature-settings: 'liga';
+          font-feature-settings: 'liga';
+}
+
+td.ok {
+  border-bottom: 1px solid #008080;
+  color: #008080;
+}
+
+td.error {
+  border-bottom: 1px solid red;
+  color: red;
+}
+
+tr:hover {
+  background-color: whitesmoke;
+}
+
+th i {
+  visibility: hidden;
+  -webkit-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+}
+
+th:hover {
+  cursor: pointer !important;
+}
+
+th.active {
+  background-color: aquamarine !important;
+}
+
+a.active {
+  background-color: aquamarine !important;
+}
+
+th:hover i {
+  visibility: visible;
+  cursor: pointer;
+}
+
+td:hover i {
+  cursor: pointer;
+}
+
+td i:hover {
+  color: #008080;
+}
+
+tr.update {
+  border-color: aquamarine;
+}
+
+i.asc {
+  -webkit-transform: rotate(270deg);
+          transform: rotate(270deg);
+}
+
+i.desc {
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+}
+
